@@ -15,6 +15,7 @@ public class Window extends JFrame {
         this.add(panel);
         this.setSize(WIDTH,HEIGHT);
         this.setVisible(true);
+        this.setTitle("Snake Game");
         this.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
